@@ -35,3 +35,11 @@ def get_heading_level(heading: str) -> int:
     heading_level = heading.count(HEADING_CHAR)
 
     return heading_level
+
+
+def create_h1(heading_text) -> str:
+    return f"# {heading_text}"
+
+
+def create_h2(heading_text) -> str:
+    return f"## {heading_text}"
